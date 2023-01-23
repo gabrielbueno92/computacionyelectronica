@@ -16,9 +16,6 @@ body {
 h1{ font-size: 25px;}
 h2{ font-size: 30px;}
 h3{ font-size: 20px;}
-p{ font-size: 1.2em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
 
 header{
     background-color: #f8dc7e;
@@ -227,7 +224,7 @@ footer .container .ref a {
 }
 
 
-@media (min-width: 850px){
+/* @media (min-width: 850px){
     h1{ font-size: 45px;}
 
     #our-services .services {
@@ -274,7 +271,7 @@ footer .container .ref a {
         margin-right: 300px;
     }
 
-}
+} */
 
 @media (min-width: 1200px){
     h1{ font-size: 55px;}
