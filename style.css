@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: #ffe;
+    height: 100vh;
+}
+
+h1{ font-size: 25px;}
+h2{ font-size: 30px;}
+h3{ font-size: 20px;}
+p{ font-size: 1.2em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+header{
+    background-color: #f8dc7e;
+    padding: 2rem 1rem;
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*.container {
+     max-width: 100%;
+     text-align: center;
+}
+
+* button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.title{
+    text-align: center;
+    color: #ff0000;
+}
+
+#about-us .container {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("img/placa-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    width: 2000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+#about-us .specialized{
+    font-size: 1.5rem;
+    line-height: 80px;
+    color:#ffe;
+    margin: 20px;
+
+}
+
+#our-services .container {
+    padding: 50px 12px;
+}
+
+#our-services .services {
+    padding: 0px 40px 0px 40px;
+}
+
+#our-services .card {
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#our-services h3{
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+}
+
+#our-services p{
+    font-size: 20px;
+}
+
+/* #our-products .container .center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#our-products .container .center .slider {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#our-products .container .center .slider .images{
+    display: flex;
+    width: 100%;
+}
+
+#our-products .container .center .slider .images img{
+    height: 400px;
+    width: 100%;
+    transition: all 1s ease;
+    border-radius: 5px;
+}
+
+#our-products .container .center .slider .images input {
+    display: none;
+}
+
+#our-products .container .center .slider .dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#our-products .container .center .slider .dots label {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid #ff0000 2px;
+    cursor: pointer;
+    transition: all 1s ease;
+    margin: 5px;
+}
+
+#our-products .container .center .slider .dots label:hover {
+    background-color: #ff5959;
+}
+
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+} */
+
+#warranty .container {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/soldadura.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    width: 2000px;
+    height: 500px;
+}
+
+#warranty .subtitle {
+    color: #ffe;
+    padding-top: 50px;
+}
+
+#warranty p{
+    font-size: 1.5rem;
+    line-height: 80px;
+    color:#ffe;
+    margin: 20px;
+}
+
+#our-location .subtitle {
+    padding-top: 50px;
+}
+
+#our-location .container .address {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+}
+
+#our-location .container .address:hover {
+    color: #ff5959;
+}
+
+#our-location .container .btn-address button {
+    background-color: #ff5959;
+    margin-bottom: 30px;
+}
+
+#our-location .container .btn-address button:hover {
+    background-color: #f8dc7e;
+    cursor: pointer;
+}
+
+#our-location .container .schedule-title {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#contact .container{
+    margin: 80px 0px;
+}
+
+#contact .container .comunication {
+    justify-content: space-around;
+    display: flex;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+.number {
+    color:black;
+    font-weight: normal;
+}
+
+.number p{
+    padding-top: 15px;
+}
+
+.number:hover {
+    color: #ff5959;
+}
+
+.whatsapp {
+    font-weight: bold;
+}
+
+#contact .container .comunication .whatsapp button {
+    background-color: #40C351;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact .container .comunication .whatsapp button:hover {
+    background-color: #52925A;
+}
+
+#contact .container .comunication .whatsapp a{
+    text-decoration: none;
+}
+
+#contact .container .comunication .whatsapp button p{
+    color: #ffe;
+}
+
+#contact .container .comunication .whatsapp .wapp-logo{
+    width: 20%;
+    height: 20%;
+}
+
+footer .container{
+    background-color: #f8dc7e;
+    padding: 1rem 1rem;
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 5px;
+}
+
+footer .container .ref {
+    font-size: 1%;
+    text-decoration: none;
+    color:#f8dc7e;
+}
+
+footer .container .ref a {
+    font-size: 1%;
+    text-decoration: none;
+    color:#f8dc7e;
+}
+
+@media (min-width: 650px){
+    h1{ font-size: 35px;}
+}
+
+
+@media (min-width: 850px){
+    h1{ font-size: 45px;}
+
+    #our-services .services {
+        padding: 0px 40px 0px 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    #our-location .container .location {
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #our-location .container .location .details {
+        width: 50%;
+        max-width: 600px;
+        text-align: center;
+        padding-left: 30px;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    #our-location .container .location .img-container {
+        background-image: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
+        ),url("/img/local.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+        margin-right: 100px;
+    }
+
+    .phone{
+        margin-left: 300px;
+    }
+
+    .whatsapp{
+        margin-right: 300px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    h1{ font-size: 55px;}
+
+    #about-us .specialized{
+        margin-left: 250px;
+        margin-right: 250px;
+        font-size: 35px;
+    }
+
+    #our-services .services {
+        padding: 0px 40px 0px 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #our-services .card {
+        width: 25%;
+    }
+
+    #warranty p{
+        font-size: 30px;
+    }
+
+    #our-location .container .location .details {
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    #our-location .container .location .img-container {
+        margin-right: 350px;
+        width: 50%;
+        max-width: 600px;
+        height: 500px;
+        width: 400px;
+    }
+    
+
+}
+
+
+/*Colores iconos
+#FCC419
+#FF0000 */
