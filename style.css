@@ -58,7 +58,7 @@ header{
 }
 
 #about-us .specialized{
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 60px;
     color:#ffe;
     margin: 20px;
@@ -96,7 +96,6 @@ header{
 }
 
 #our-services p{
-    object-fit: contain;
     font-size: 25px;
 }
 
@@ -113,11 +112,9 @@ header{
 #warranty .subtitle {
     color: #ffe;
     padding-top: 50px;
-    font-size: 50px;
 }
 
 #warranty p{
-    font-size: 1rem;
     line-height: 60px;
     color:#ffe;
     margin: 20px;
@@ -280,6 +277,16 @@ footer .container .ref a {
         grid-gap: 40px;
     }
 
+    #our-services h3{
+        font-size: 21px;
+        justify-content: center;
+    }
+
+    #warranty .container .text{
+        font-size: 25px;
+        padding: 5px 20px;
+    }
+
     #our-location .container .location {
         display: flex;
         justify-content:space-around;
@@ -292,6 +299,7 @@ footer .container .ref a {
         padding-left: 30px;
         padding-top: 30px;
         align-items: center;
+        justify-content: center;
     }
 
     #our-location .container .location .img-container {
@@ -307,6 +315,7 @@ footer .container .ref a {
         border-radius: 5px;
         margin-right: 100px;
         margin-left: 40px;
+        padding-top: 50px;
     }
 
     #contact .container .comunication .whatsapp button {
@@ -329,12 +338,14 @@ footer .container .ref a {
     #about-us .specialized{
         margin-left: 150px;
         margin-right: 150px;
-        font-size: 20px;
+        font-size: 25px;
 
     }
 
     #warranty p{
-        font-size: 20px;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 25px;
     }
 }
 
