@@ -97,6 +97,7 @@ header{
 
 #our-services p{
     object-fit: contain;
+    font-size: 20px;
 }
 
 #warranty .container {
