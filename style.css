@@ -91,13 +91,13 @@ header{
 }
 
 #our-services h3{
-    font-size: 17px;
+    font-size: 21px;
     justify-content: center;
 }
 
 #our-services p{
     object-fit: contain;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #warranty .container {
@@ -113,6 +113,7 @@ header{
 #warranty .subtitle {
     color: #ffe;
     padding-top: 50px;
+    font-size: 50px;
 }
 
 #warranty p{
@@ -231,7 +232,7 @@ header{
 
 footer .container{
     background-color: #f8dc7e;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 1rem 0rem;
     border-style: solid;
     border-color: #ff0000;
     border-width: 5px;
