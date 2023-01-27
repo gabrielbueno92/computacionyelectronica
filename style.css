@@ -302,6 +302,10 @@ footer .container .ref a {
         justify-content: center;
     }
 
+    #our-location .container .location .details p{
+        font-size: 20px;
+    }
+
     #our-location .container .location .img-container {
         background-image: linear-gradient(
             0deg,
@@ -313,9 +317,12 @@ footer .container .ref a {
         height: 400px;
         width: 300px;
         border-radius: 5px;
-        margin-right: 100px;
-        margin-left: 40px;
-        padding-top: 50px;
+        margin: 40px 100px 40px;
+
+    }
+
+    #contact .container .text {
+        font-size: 20px;
     }
 
     #contact .container .comunication .whatsapp button {
@@ -323,6 +330,16 @@ footer .container .ref a {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: max-content;
+        font-size: 15px;
+    }
+
+    #contact .container .comunication .phone {
+        font-size: 20px;
+    }
+
+    #contact .container .comunication .whatsapp {
+        font-size: 20px;
     }
 
 }
