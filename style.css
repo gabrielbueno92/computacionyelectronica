@@ -248,6 +248,7 @@ footer .container .ref a {
     color:#f8dc7e;
 }
 
+
 @media (min-width: 375px){
     h1{ font-size: 20px;}
 }
@@ -344,7 +345,7 @@ footer .container .ref a {
 
 }
 
-@media (min-width: 850px){
+@media (min-width: 850px) {
     h1{ font-size: 45px;}
     h2{ font-size: 35px;}
 
@@ -360,8 +361,8 @@ footer .container .ref a {
     }
 
     #warranty p{
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 120px;
+        margin-right: 120px;
         font-size: 25px;
     }
 }
